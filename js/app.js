@@ -341,8 +341,8 @@ function autocomplete(inp, arr) {
   });
 }
 
-/*An array containing all the country names in the world:*/
+/*An array containing all the names:*/
 const userName = ["Victoria Chambers", "Dale Byrd", "Dawn Wood", "Dan Oliver"];
 
-/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+/*initiate the autocomplete function on the "myInput" element, and pass along the names array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), userName);

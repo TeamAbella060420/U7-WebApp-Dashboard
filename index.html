@@ -36,15 +36,6 @@
     
 
     </header>
-    <input list="member" type="text" id ="userField" class="form-field" placeholder="Search for User">
-    <label for="userField"></label>
-    <datalist id="member">
-        <option value="Victoria Chambers"></option>
-        <option value="Dale Byrd"></option>
-        <option value="Dawn Wood"></option>
-        <option value="Dan Oliver"></option>
-    </datalist>
-    <nav class = "nav">
         
         <ul class = "navIcon">
             <li>
@@ -260,8 +251,14 @@
             <section class="message">
                 <h3>MESSAGE USER</h3>
                 <form class="form">
-                    <input type="text" id ="userField" class="form-field" 
-                    placeholder="Search for User">
+                    <input list="member" type="text" id ="userField" class="form-field" placeholder="Search for User">
+                    <label for="userField"></label>
+                    <datalist id="member">
+                        <option value="Victoria Chambers"></option>
+                        <option value="Dale Byrd"></option>
+                        <option value="Dawn Wood"></option>
+                        <option value="Dan Oliver"></option>
+                    </datalist>
                     <textarea placeholder="Message for User" class="form-area" 
                     id="messageField"></textarea>
                     <button class="btn-send" id="send">SEND</button>

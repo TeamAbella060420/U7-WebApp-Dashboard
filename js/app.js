@@ -244,5 +244,3 @@ save.addEventListener('click', () => {
 
 Storage();
 
-
-

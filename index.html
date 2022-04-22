@@ -10,12 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <title>WebApp Dashboard</title>
 </head>
-<form autocomplete="on" action="/action_page.php">
-    <div class="autocomplete" style="width:300px;">
-      <input id="myInput" type="text" name="myNames" placeholder="name">
-    </div>
-    <input type="submit">
-</form>
+
 <body class="grid-container">
   
     <header class="header" id="home">
@@ -41,7 +36,16 @@
     
 
     </header>
-    
+    <label for="member-name"></label>
+<input list="member" id="member-name" name="member-name" />
+
+<datalist id="member">
+    <option value="Victoria Chambers">
+    <option value="Dale Byrd">
+    <option value="Dawn Wood">
+    <option value="Dan Oliver">
+</datalist>
+
     <nav class = "nav">
         
         <ul class = "navIcon">

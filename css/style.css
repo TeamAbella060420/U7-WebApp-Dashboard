@@ -386,7 +386,7 @@ button {
         "nav main";
   }
   .message{
-    width: 104%;
+    width: 100%;
   }
   .form{
     display: flex;
@@ -451,7 +451,7 @@ button {
  .chart-container-half,
  .daily-chart,
  .mobile-chart {
-     width: 45vw;
+     width: 100%;
  }
 
 
@@ -519,10 +519,10 @@ button {
     
   }
   .chart-container-full {
-    width: 119%;
+    width: 100%;
  }
  .chart-container-half {
-  width: 170%;
+  width: 100%;
  }
   #daily-chart{
     padding-top: 12%;
@@ -594,9 +594,6 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 15px;
-    
-
-
   }
   
   .settings {
@@ -622,7 +619,7 @@ button {
     margin-bottom: 40px;
   }
   .time-field{
-    width: 93%;
+    width: 50%;
   }
   canvas {
     max-width: 50%;
@@ -639,11 +636,6 @@ button {
     .activity, .settings{
       grid-column: 2 / span 1;
     }
- 
- 
- 
-   
-  
 }
 
 

@@ -3,6 +3,11 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 500; 
 }
+
+canvas {
+  max-width: 100%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -21,9 +26,9 @@
   color:white;
   
 }
-.chart-container-full, .chart-container-half {
+/* .chart-container-full, .chart-container-half {
   width: 95vw;
-}
+} */
 
 .nav {
   display: flex;
@@ -43,11 +48,19 @@
   padding: 1px;
   height: 25px;
 }
-.alert-banner p{
-  margin:20px;
+.alert-banner {
+  padding: 5px 20px;
 }
+.alert-banner p{
+  /* margin:20px; */
+  display: flex;
+  align-items: center;
+}
+
+
 .close{
-  float: right;
+  /* float: right; */
+  margin-left: auto
 }
 .notificationsList a{
   display: block;  
@@ -174,20 +187,21 @@ h2{margin-left: 12px;
   background-color: #7874c4;
   color: white;
   font-size: 15px;
-  margin-left: 13px;
-  margin-right: 17px;
+  /* margin-left: 13px;
+  margin-right: 17px; */
+  margin: 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 /* #traffic-chart{
   padding-left: 20px;
 } */
-#daily-chart{
+/* #daily-chart{
   padding: 15px;
 }
 #mobile-chart{
   padding: 25px;
-}
+} */
 
 .traffic-header h3 {
   padding: 8px;
@@ -397,7 +411,7 @@ button {
     
     display: flex;
     flex-direction: column;
-    margin-right: -40px;
+    /* margin-right: -40px; */
 
   }
   
@@ -429,7 +443,7 @@ button {
   }
   #traffic-chart{
     padding-left: 50px;
-    width: 850px;
+    /* width: 850px; */
   }
   
 
@@ -444,9 +458,9 @@ button {
     grid-template-columns: 1fr 1fr;
     margin-right: 1px;  
   }
-  .chart-container-full {
+  /* .chart-container-full {
     width: 85vw;
-  }
+  } */
 
  .chart-container-half,
  .daily-chart,
@@ -491,7 +505,7 @@ button {
  
   .activity {
     border-top: none;
-    margin-left: 11px;
+    margin-left: 8px;
   }
   .char{
     visibility: visible;
@@ -524,7 +538,7 @@ button {
  .chart-container-half {
   width: 100%;
  }
-  #daily-chart{
+  /* #daily-chart{
     padding-top: 12%;
     margin-left: 4%;
     padding-right: 1%;
@@ -534,6 +548,10 @@ button {
     padding: 30px;
     padding-left: 5%;
     margin-left: 5%;
+  } */
+
+  .daily, .mobile {
+    padding: 15px;
   }
   .message {
     padding-top: 4px;
@@ -593,7 +611,7 @@ button {
   .massage-setting{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 15px;
+    /* margin-right: 15px; */
   }
   
   .settings {
@@ -601,11 +619,9 @@ button {
     border-left: solid #C7c7c7 1px;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    /* align-items: stretch;
     margin-left: 4%;
-    padding-right: 3%
-    
-
+    padding-right: 3% */
   }
   
   .switch1, .switch2 {
@@ -618,16 +634,16 @@ button {
   .switch-ios.switch-light{
     margin-bottom: 40px;
   }
-  .time-field{
+  /* .time-field{
     width: 50%;
-  }
-  canvas {
+  } */
+  /* canvas {
     max-width: 50%;
   }
   
   .traffic canvas  {
     max-width: 80%;
-  }
+  } */
  
  
     .members,  .message{
